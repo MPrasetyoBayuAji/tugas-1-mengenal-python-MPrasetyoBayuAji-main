@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "",
+      "run": "python -m unittest tests/test_1_cek_ganjil_genap.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python -m unittest tests/test_2_cek_tahun_kabisat.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_3_hitung_luas_lingkaran.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_4_hitung_volume_kubus.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_5_hitung_rerata.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_6_hitung_huruf_vokal.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_7_cari_angka_terbesar.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_8_cari_angka_duplikat.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_9_hitung_faktorial.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_10_hitung_jumlah_setiap_karakter.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

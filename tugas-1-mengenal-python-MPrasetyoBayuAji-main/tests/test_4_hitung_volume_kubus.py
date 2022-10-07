@@ -1,0 +1,37 @@
+from unittest import TestCase
+from tugas1 import hitung_volume_kubus
+
+
+class TestTugas1VolumeKubus(TestCase):
+    def test_volume_kubus(self):
+        self.assertEqual(hitung_volume_kubus(1), 1)
+        self.assertEqual(hitung_volume_kubus(2), 8)
+        self.assertEqual(hitung_volume_kubus(3), 27)
+        self.assertEqual(hitung_volume_kubus(4), 64)
+        self.assertEqual(hitung_volume_kubus(5), 125)
+        self.assertEqual(hitung_volume_kubus(6), 216)
+        self.assertEqual(hitung_volume_kubus(7), 343)
+        self.assertEqual(hitung_volume_kubus(8), 512)
+        self.assertEqual(hitung_volume_kubus(9), 729)
+        self.assertEqual(hitung_volume_kubus(10), 1000)
+        self.assertEqual(hitung_volume_kubus(11), 1331)
+        self.assertEqual(hitung_volume_kubus(12), 1728)
+        self.assertEqual(hitung_volume_kubus(13), 2197)
+        self.assertEqual(hitung_volume_kubus(14), 2744)
+        self.assertEqual(hitung_volume_kubus(15), 3375)
+        self.assertEqual(hitung_volume_kubus(16), 4096)
+        self.assertEqual(hitung_volume_kubus(17), 4913)
+        self.assertEqual(hitung_volume_kubus(18), 5832)
+        self.assertEqual(hitung_volume_kubus(19), 6859)
+        self.assertEqual(hitung_volume_kubus(20), 8000)
+        self.assertEqual(hitung_volume_kubus(21), 9261)
+        self.assertEqual(hitung_volume_kubus(22), 10648)
+        self.assertEqual(hitung_volume_kubus(23), 12167)
+        self.assertEqual(hitung_volume_kubus(24), 13824)
+        self.assertEqual(hitung_volume_kubus(25), 15625)
+        self.assertEqual(hitung_volume_kubus(26), 17576)
+        self.assertEqual(hitung_volume_kubus(27), 19683)
+        self.assertEqual(hitung_volume_kubus(28), 21952)
+        self.assertEqual(hitung_volume_kubus(29), 24389)
+        self.assertEqual(hitung_volume_kubus(30), 27000)
+        self.assertEqual(hitung_volume_kubus(31), 29791)

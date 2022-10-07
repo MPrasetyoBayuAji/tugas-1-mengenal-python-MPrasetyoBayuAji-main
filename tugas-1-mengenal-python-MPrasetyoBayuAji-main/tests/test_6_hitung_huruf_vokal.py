@@ -1,0 +1,35 @@
+from unittest import TestCase
+from tugas1 import hitung_huruf_vokal
+
+
+class TestTugas1HitungHurufVokal(TestCase):
+    def test_huruf_vokal(self):
+        self.assertEqual(hitung_huruf_vokal("a"), 1)
+        self.assertEqual(hitung_huruf_vokal("b"), 0)
+        self.assertEqual(hitung_huruf_vokal("c"), 0)
+        self.assertEqual(hitung_huruf_vokal("d"), 0)
+        self.assertEqual(hitung_huruf_vokal("e"), 1)
+        self.assertEqual(hitung_huruf_vokal("f"), 0)
+        self.assertEqual(hitung_huruf_vokal("g"), 0)
+        self.assertEqual(hitung_huruf_vokal("h"), 0)
+        self.assertEqual(hitung_huruf_vokal("i"), 1)
+        self.assertEqual(hitung_huruf_vokal("j"), 0)
+        self.assertEqual(hitung_huruf_vokal("k"), 0)
+        self.assertEqual(hitung_huruf_vokal("l"), 0)
+        self.assertEqual(hitung_huruf_vokal("m"), 0)
+        self.assertEqual(hitung_huruf_vokal("n"), 0)
+        self.assertEqual(hitung_huruf_vokal("o"), 1)
+        self.assertEqual(hitung_huruf_vokal("p"), 0)
+        self.assertEqual(hitung_huruf_vokal("q"), 0)
+        self.assertEqual(hitung_huruf_vokal("r"), 0)
+        self.assertEqual(hitung_huruf_vokal("s"), 0)
+        self.assertEqual(hitung_huruf_vokal("t"), 0)
+        self.assertEqual(hitung_huruf_vokal("u"), 1)
+        self.assertEqual(hitung_huruf_vokal("v"), 0)
+        self.assertEqual(hitung_huruf_vokal("w"), 0)
+        self.assertEqual(hitung_huruf_vokal("x"), 0)
+        self.assertEqual(hitung_huruf_vokal("y"), 0)
+        self.assertEqual(hitung_huruf_vokal("z"), 0)
+        self.assertEqual(hitung_huruf_vokal("A"), 1)
+        self.assertEqual(hitung_huruf_vokal("B"), 0)
+        self.assertEqual(hitung_huruf_vokal("Halo"), 2)
